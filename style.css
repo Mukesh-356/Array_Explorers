@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    text-align: center;
+     background-image: url(https://static.vecteezy.com/system/resources/previews/030/668/229/non_2x/gray-background-high-quality-free-photo.jpg);
+     color: black;
+     padding: 20px;
+}
+#message{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: large;
+    margin-top: 50px;
+    font-style:unset;
+    text-decoration: underline;
+}
+button{
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    padding: 10px; 
+    border-radius: 80px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px;
+}
+#numbers{
+    height: 40px;
+    border-radius: 40%;
+    border: 3px solid black;
+    box-shadow: 0 0 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(28, 172, 180);
+    color: black;
+    font-size: medium;
+    font-weight: 200;
+}
